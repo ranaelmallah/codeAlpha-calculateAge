@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(243, 238, 233);
+}
+
+h1 {
+    color: rgb(139, 202, 200);
+}
+
+a {
+    background-color: rgb(121, 189, 187);
+    color: rgb(243, 238, 233);
+    cursor: pointer;
+    padding: 10px;
+    display: none;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+form {
+    text-align: center;
+    line-height: 2.5;
+    color: rgb(139, 202, 200);
+}
+
+input {
+    padding: 10px;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+#submit {
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    border: 0px;
+    background-color: rgb(47, 158, 154);
+    color: rgb(245, 243, 241);
+    cursor: pointer;
+}
